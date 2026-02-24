@@ -1,0 +1,143 @@
+{
+  "username": "Sammy",
+  "full_name": "Samuel N",
+  "login_history": [
+    "2026-02-24T14:35:52.462931",
+    "2026-02-24T14:52:03.230022",
+    "2026-02-24T14:56:03.122951",
+    "2026-02-24T14:58:14.517476",
+    "2026-02-24T15:01:23.665541",
+    "2026-02-24T15:03:45.482626",
+    "2026-02-24T15:07:17.225120",
+    "2026-02-24T15:10:15.977536",
+    "2026-02-24T15:17:24.377553",
+    "2026-02-24T15:21:26.954562",
+    "2026-02-24T15:36:59.536475",
+    "2026-02-24T15:51:27.628906",
+    "2026-02-24T19:14:52.606651"
+  ],
+  "commands": [
+    {
+      "timestamp": "2026-02-24T14:39:12.413349",
+      "status": "success",
+      "command": "voice"
+    },
+    {
+      "timestamp": "2026-02-24T14:52:48.983707",
+      "status": "ai_response",
+      "command": "open notepad"
+    },
+    {
+      "timestamp": "2026-02-24T14:53:06.239675",
+      "status": "ai_response",
+      "command": "open chrome"
+    },
+    {
+      "timestamp": "2026-02-24T14:53:31.139005",
+      "status": "ai_response",
+      "command": "kill notepad"
+    },
+    {
+      "timestamp": "2026-02-24T14:54:41.579384",
+      "status": "ai_response",
+      "command": "open chrome"
+    },
+    {
+      "timestamp": "2026-02-24T14:56:23.993579",
+      "status": "ai_response",
+      "command": "open chrome"
+    },
+    {
+      "timestamp": "2026-02-24T14:58:40.909956",
+      "status": "success",
+      "command": "voice"
+    },
+    {
+      "timestamp": "2026-02-24T14:58:49.990531",
+      "status": "success",
+      "command": "battery"
+    },
+    {
+      "timestamp": "2026-02-24T14:59:02.913583",
+      "status": "ai_response",
+      "command": "kill notepad"
+    },
+    {
+      "timestamp": "2026-02-24T15:03:58.315527",
+      "status": "success",
+      "command": "open chrome"
+    },
+    {
+      "timestamp": "2026-02-24T15:04:26.651412",
+      "status": "ai_response",
+      "command": "log"
+    },
+    {
+      "timestamp": "2026-02-24T15:07:23.401499",
+      "status": "ai_response",
+      "command": "log"
+    },
+    {
+      "timestamp": "2026-02-24T15:10:25.329229",
+      "status": "ai_response",
+      "command": "log"
+    },
+    {
+      "timestamp": "2026-02-24T15:11:20.511444",
+      "status": "ai_response",
+      "command": "logs"
+    },
+    {
+      "timestamp": "2026-02-24T15:11:28.616489",
+      "status": "ai_response",
+      "command": "logs"
+    },
+    {
+      "timestamp": "2026-02-24T15:17:34.419692",
+      "status": "success",
+      "command": "logs"
+    },
+    {
+      "timestamp": "2026-02-24T15:17:46.453528",
+      "status": "success",
+      "command": "open notepad"
+    },
+    {
+      "timestamp": "2026-02-24T15:18:16.243075",
+      "status": "ai_response",
+      "command": "kill notepad"
+    },
+    {
+      "timestamp": "2026-02-24T15:21:37.238929",
+      "status": "success",
+      "command": "weather kenya"
+    },
+    {
+      "timestamp": "2026-02-24T15:37:13.498125",
+      "status": "success",
+      "command": "weather kenya"
+    },
+    {
+      "timestamp": "2026-02-24T15:37:59.596142",
+      "status": "success",
+      "command": "voice"
+    },
+    {
+      "timestamp": "2026-02-24T15:51:39.832942",
+      "status": "success",
+      "command": "weather london"
+    },
+    {
+      "timestamp": "2026-02-24T15:51:58.021976",
+      "status": "success",
+      "command": "kill notepad"
+    },
+    {
+      "timestamp": "2026-02-24T15:52:08.063900",
+      "status": "success",
+      "command": "logs"
+    }
+  ],
+  "file_actions": [],
+  "preferences": {}
+}
