@@ -176,12 +176,6 @@
       "command": "open code"
     }
   ],
-  "file_actions": [
-    {
-      "timestamp": "2026-02-25T11:21:38.810556",
-      "status": "success",
-      "action": "organized ."
-    }
-  ],
+  "file_actions": [],
   "preferences": {}
 }

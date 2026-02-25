@@ -1,28 +1,42 @@
 import json
 import os
 
-MEMORY_FILE = "memory.json"
-user_name = None
+class Memory:
+    MEMORY_FILE = "memory.json"
 
-if os.path.exists(MEMORY_FILE):
-    try:
-        with open(MEMORY_FILE, 'r') as f:
-            data = json.load(f)
-            user_name = data.get('name')
-    except:
-        pass
+    def __init__(self):
+        self.user_name = None
+        self._load_memory()
 
+    def _load_memory(self):
+        if os.path.exists(self.MEMORY_FILE):
+            try:
+                with open(self.MEMORY_FILE, 'r') as f:
+                    data = json.load(f)
+                    self.user_name = data.get('name')
+            except:
+                pass
 
-def set_name (name):
-    global user_name
-    user_name = name
-    return f"I'll call you {name}"
+    def set_name(self, name):
+        self.user_name = name
+        return f"I'll call you {name}"
+
+    def get_name(self):
+        return self.user_name if self.user_name else "unknown"
+
+    def greet(self):
+        if self.user_name:
+            return f"Hello {self.user_name}"
+        else:
+            return "Hello. What's your name?"
+
+_memory = Memory()
+
+def set_name(name):
+    return _memory.set_name(name)
 
 def get_name():
-    return user_name if user_name else  "unknown"
-def greet():
-    if user_name:
-        return  f"Hello {user_name}"
+    return _memory.get_name()
 
-    else:
-        return "Hello. What's your name?"
+def greet():
+    return _memory.greet()
